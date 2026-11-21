@@ -3,7 +3,14 @@
 A workspace for Power BI Report Server that looks and works like the Power BI service: sign-in, workspaces, apps,
 per-user views and a presenter mode, on your own Windows machine. This repository holds the release downloads.
 
-## Install in one line
+## Install
+
+Download **DoppelSpace-&lt;version&gt;-Setup.exe** from the [latest release](https://github.com/MYRIAD-Business-Technology/doppelspace-releases/releases/latest)
+and open it. Windows asks for administrator approval; a short wizard unpacks the release and runs setup in its own
+window. Until the installer is code-signed, SmartScreen shows "Windows protected your PC" on first run: click
+"More info", then "Run anyway". The checksum is in the `.sha256` file next to it.
+
+## Or install in one line
 
 On 64-bit Windows 10, Windows 11 or Windows Server, as an administrator, paste into PowerShell or the Run box:
 
